@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "oba-svc"
+  description: "Open Banking Accelerator Specification service"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/oba-svc
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/oba-svc
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Paridhi"

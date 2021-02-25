@@ -1,0 +1,5 @@
+com/openbanking/spec/obsaccountinfo/config/SwaggerConfig$1.class
+com/openbanking/spec/obsaccountinfo/ObsAccountInfoApplication.class
+com/openbanking/spec/obsaccountinfo/controllers/AccountController.class
+com/openbanking/spec/obsaccountinfo/config/SwaggerConfig.class
+com/openbanking/spec/obsaccountinfo/config/RestTemplateConfig.class

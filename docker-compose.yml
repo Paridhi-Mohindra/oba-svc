@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  obs-account-info:
+    build:
+      context: ./obs-account-info
+      dockerfile: ./Dockerfile
+    container_name: obs-account-info
+
+  # netflix-service-discovery:
+  #   build:
+  #     context: ./netflix-service-discovery
+  #     dockerfile: ./Dockerfile
+  #   image: netflix-service-discovery
+  #   ports:
+  #   - 8010:8010
+  #   <<: *spring-config
+  #   depends_on:
+  #   - obs-common-configs
+  #   container_name: netflix-service-discovery
